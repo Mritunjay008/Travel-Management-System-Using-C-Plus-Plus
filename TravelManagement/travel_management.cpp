@@ -114,7 +114,7 @@ public:
             {
                 lastCabCost = cabCost;
                 cout << "\nYou have successfully hired a Standard cab" << endl;
-                cout << "Goto Menu an take the Receipt" << endl;
+                cout << "Goto Menu and take the Receipt" << endl;
             }
             else if (hireCab == 2)
             {
@@ -142,7 +142,7 @@ public:
             {
                 lastCabCost = cabCost;
                 cout << "\nYou have successfully hired a Luxury cab" << endl;
-                cout << "Goto Menu an take the Receipt" << endl;
+                cout << "Goto Menu and take the Receipt" << endl;
             }
             else if (hireCab == 2)
             {
@@ -270,7 +270,7 @@ public:
             cout << "\nPress another key to back or \nEnter package number you want to book : ";
             cin >> packChoice;
 
-            if (packChoice = 1)
+            if (packChoice == 1)
             {
                 hotelCost = 5000.00;
                 cout << "\nYou have successfully booked Standard Pack at LuxuryChoice" << endl;
